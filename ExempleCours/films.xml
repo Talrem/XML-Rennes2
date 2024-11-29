@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding= "UTF-8" ?>
+<filmographie>
+<film>
+		<titre> It's a free World!</titre>	
+		<realisateur> Réalisé par : Ken Loach</realisateur>
+		<date_sortie> Date de sortie : 02 Janvier 2008 </date_sortie>
+		<casting> Acteurs
+		<act> * Kierston Wareing</act>
+		<act> * Juliet Ellis</act>
+		<act> * Leslaw Zurek </act>
+		<act> * ...</act>
+		</casting>
+		<affiche>itsafreeworld.jpg</affiche>
+		<genre>Drame</genre>
+		<duree>93 mns</duree>
+		<date_production>2007</date_production>
+		<distribution>Diaphana Films</distribution>
+		<description> Synopsis
+		<resume>Angie se fait virer d'une agence de recrutement pour mauvaise conduite en public. Elle fait alors équipe avec sa colocataire, Rose, pour ouvrir une agence dans leur cuisine. Avec tous ces immigrants en quête de travail, les opportunités sont considérables, particulièrement pour deux jeunes femmes en phase avec leur temps.</resume>
+		</description>
+		
+	
+</film>
+<film>
+		<titre> THE OLD OAK</titre>	
+		<realisateur> Réalisé par : Ken Loach</realisateur>
+		<date_sortie> Date de sortie : 25 Octobre 2023 </date_sortie>
+		<casting> Acteurs
+		<act> * Dave Turner</act>
+		<act> * Ebla Mari</act>
+		<act> * Claire Rodgerson  </act>
+		<act> * ...</act>
+		</casting>
+		<affiche>theoldoak.jpg</affiche>
+		<genre>Drame</genre>
+		<duree>113 mns</duree>
+		<date_production>2023</date_production>
+		<distribution>LE PACTE</distribution>
+		<description> Synopsis
+		<resume>ATJ Ballantyne est le propriétaire du "Old Oak", un pub situé dans une petite bourgade du nord de l’Angleterre. Il y sert quotidiennement les mêmes habitués désœuvrés pour qui l’endroit est devenu le dernier lieu où se retrouver. L’arrivée de réfugiés syriens va créer des tensions dans le village. TJ va cependant se lier d’amitié avec Yara, une jeune migrante passionnée par la photographie. Ensemble, ils vont tenter de redonner vie à la communauté locale en développant une cantine pour les plus démunis, quelles que soient leurs origines.</resume>
+	</description>
+</film>
+</filmographie>

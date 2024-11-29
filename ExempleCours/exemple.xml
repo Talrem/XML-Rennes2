@@ -1,0 +1,8 @@
+<cours xml>
+<titre>Présentation du langage XML</titre>
+<auteur>
+	<nom>Moreau</nom>
+	<prénom>Fabienne</prénom>
+</auteur>
+<public>Master 1 MTC2M</public>
+</cours xml>
