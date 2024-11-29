@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding= "UTF-8" ?>
+<!DOCTYPE Parking [
+  <!ELEMENT Parking (ListeDeVoitures)>
+  <!ATTLIST Parking
+    nombreNiveaux (1 | 2 | 3 | 4) #REQUIRED
+    proprietaire CDATA #IMPLIED
+    tarif CDATA #FIXED "1 euro / heure"
+  >
+  <!ELEMENT ListeDeVoitures (Voiture*)>
+  <!ELEMENT Voiture (Marque, Proprietaire)>
+  <!ELEMENT Marque (#PCDATA)>
+  <!ELEMENT Proprietaire (#PCDATA)>
+]>
+<Parking proprietaire="Mairie de Senonches" nombreNiveaux="1">
+  <ListeDeVoitures>
+    <Voiture>
+      <Marque>Renault Mégane</Marque>
+      <Proprietaire>David Merlat</Proprietaire>
+    </Voiture>
+  </ListeDeVoitures>
+</Parking>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding= "UTF-8" ?>
+<!DOCTYPE agenda [
+  <!ELEMENT agenda (personne*)>
+  <!ELEMENT personne (nom, prenom, adresse?, telephone*)>
+  <!ELEMENT nom (#PCDATA)>
+  <!ELEMENT prenom (#PCDATA)>
+  <!ELEMENT adresse (rue, code_postal, ville)>
+  <!ELEMENT telephone (#PCDATA)>
+  <!ELEMENT rue (#PCDATA)>
+  <!ELEMENT code_postal (#PCDATA)>
+  <!ELEMENT ville (#PCDATA)>
+]>
+<agenda>
+  <personne>
+    <nom>Merlat</nom>
+    <prenom>David</prenom>
+    <adresse>
+      <rue>Docteur Fournier</rue>
+      <code_postal>28250</code_postal>
+      <ville>Secnonches</ville>
+    </adresse>
+    <telephone>+33 638 251 659</telephone>
+  </personne>
+</agenda>

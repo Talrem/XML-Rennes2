@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE MENUS [
+	<!ELEMENT MENUS (SEMAINE)>
+	<!ELEMENT SEMAINE (MENU*)>
+	<!ELEMENT MENU (ENTREE, PLAT, DESSERT, BOISSON?)>
+	<!ELEMENT ENTREE (#PCDATA)>
+	<!ELEMENT PLAT (NOM, GARNITURES?)>
+	<!ELEMENT DESSERT (#PCDATA)>
+	<!ELEMENT BOISSON (#PCDATA)>
+	<!ELEMENT NOM (#PCDATA)>
+	<!ELEMENT GARNITURES (#PCDATA)>
+	<!ATTLIST SEMAINE
+		num CDATA #REQUIRED
+	>
+	<!ATTLIST MENU
+		jour (lundi|mardi|mercredi|jeudi|vendredi) #REQUIRED
+	>
+	<!ATTLIST NOM
+		type (viande|poisson|veggie) #IMPLIED
+	>
+	<!ATTLIST PLAT
+		unique (oui|non) #REQUIRED
+	>
+	<!ATTLIST DESSERT
+		fromage (oui|non) #REQUIRED
+	>
+]>
+
+<MENUS>
+	<SEMAINE num="1">
+		<MENU jour="vendredi">
+			<ENTREE>coquille saint Jacques</ENTREE>
+			<PLAT unique="non">
+				<NOM type="poisson">Lieu noir </NOM>
+				<GARNITURES>macedoine</GARNITURES>
+			</PLAT>
+			<DESSERT fromage="non">poire</DESSERT>
+			<BOISSON/>
+		</MENU>
+		<MENU jour="jeudi">
+			<ENTREE>coquille saint Jacques</ENTREE>
+			<PLAT unique="non">
+				<NOM type="viande">Steak</NOM>
+				<GARNITURES>Purée</GARNITURES>
+			</PLAT>
+			<DESSERT fromage="non">Crème renversée</DESSERT>
+		</MENU>
+		<MENU jour="mercredi">
+			<ENTREE>coquille saint Jacques</ENTREE>
+			<PLAT unique="oui">
+				<NOM> Paëlla </NOM>
+			</PLAT>
+			<DESSERT fromage="oui">Camembert</DESSERT>
+		</MENU>
+	</SEMAINE>
+</MENUS>

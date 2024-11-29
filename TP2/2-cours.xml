@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE cours [
+<!ELEMENT cours (titre, enseignant, date, participants)>
+<!ELEMENT titre (principal, soustitre)>
+<!ELEMENT enseignant (nom, prenom, email)>
+<!ELEMENT date (#PCDATA)>
+<!ELEMENT participants (participant*)>
+<!ELEMENT principal (#PCDATA)>
+<!ELEMENT soustitre (#PCDATA)>
+<!ELEMENT nom (#PCDATA)>
+<!ELEMENT prenom (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
+<!ELEMENT participant (#PCDATA)>
+<!ATTLIST participant
+  sesame CDATA #REQUIRED
+>
+]>
+<!-- Ceci est un exemple de document XML -->
+<cours niveau="2" duree="2h">
+  <titre>
+    <principal>Cours d'XML</principal>
+    <soustitre>Les DTD</soustitre>
+  </titre>
+  <enseignant>
+    <nom>Dupond</nom>
+    <prenom>Jean</prenom>
+    <email>jeandupond@sonemail.fr</email>
+  </enseignant>
+  <date>24 janvier 2013</date>
+  <participants>
+    <participant sesame="P28970672"> Pierre Dupont </participant>
+    <participant sesame="P26780622"> Sylvie Dumas </participant>
+    <participant sesame="P29065472"> Arnaud Dupuis </participant>
+  </participants>
+</cours>

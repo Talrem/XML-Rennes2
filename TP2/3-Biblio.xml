@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE biblio [
+	<!ELEMENT biblio (livre|article)>
+	<!ELEMENT livre (titre, auteur+, tome*, edition, avis?)>
+	<!ELEMENT titre (CDATA, soustitre?)>
+	<!ELEMENT soustitre (#PCDATA)>
+	<!ELEMENT auteur (#PCDATA)>
+	<!ELEMENT tome EMPTY>
+	<!ATTLIST tome
+		nb_pages CDATA #REQUIRED
+		soustitre CDATA #IMPLIED
+	>
+	<!ELEMENT nb_pages (#PCDATA)>
+	<!ELEMENT edition (editeur, lieu_edition, lieu_impression, isbn)>
+	<!ELEMENT editeur (#PCDATA)>
+	<!ELEMENT lieu_edition (#PCDATA)>
+	<!ELEMENT lieu_impression (#PCDATA)>
+	<!ELEMENT isbn (#PCDATA)>
+	<!ELEMENT avis (#PCDATA)>
+	<!ELEMENT article (titre, auteur+, journal)>
+	<!ELEMENT journal (page, num_journal)>
+	<!ATTLIST journal
+		nom_journal CDATA "Feuille de Chou"
+		annee (2000|2001|2002|avant_2000|inconnue) "inconnue"
+	>
+	<!ELEMENT page (#PCDATA)>
+	<!ELEMENT num_journal (#PCDATA)>
+]>
+<biblio>
+	<livre>
+		<titre>
+			Le voyage
+			<soustitre>de Nausicaa</soustitre>
+		</titre>
+		<auteur>Porco Roso</auteur>
+		<tome nb_pages="678" soustitre="La valée du vent"></tome>
+		<edition>
+			<editeur>Moi</editeur>
+			<lieu_edition>Chez moi</lieu_edition>
+			<lieu_impression>à la BU</lieu_impression>
+			<isbn>9/10</isbn>
+		</edition>
+		<avis>C'était bien</avis>
+	</livre>
+	<article>
+		<titre>
+			Legend
+			<soustitre>of Ashitaka</soustitre>
+		</titre>
+		<auteur>Les Loups</auteur>
+		<journal>
+			<page>9</page>
+			<num_journal>42</num_journal>
+		</journal>
+	</article>
+</biblio>

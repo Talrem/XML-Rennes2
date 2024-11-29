@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE liste-auteurs [
+<!ELEMENT liste-auteurs  (auteur*)>
+<!ELEMENT auteur         (nom,prenom,siecle?)>
+<!ATTLIST auteur         index CDATA #REQUIRED>
+<!ELEMENT nom            (#PCDATA)>
+<!ELEMENT prenom         (#PCDATA)>
+<!ELEMENT siecle         (#PCDATA)>
+]>
+<liste-auteurs>
+
+	<auteur index="1">
+		<nom>Hugo</nom>
+		<prenom>Victor</prenom>
+		<siecle>XIX</siecle>
+	</auteur>
+
+	<auteur index="2">Honoré de Balzac</auteur>
+
+	<auteur>
+		<nom>Racine</nom>
+		<prénom>Jean</prénom>
+	</auteur>
+
+	<auteur index="4">
+		<nom>Mallarmé</nom>
+		<prenom>Stéphane</prenom>
+		<siècle>XIX</siècle>
+	</auteur>
+
+	<auteur>
+		<nom>Fontaine</nom> (de la)
+		<prenom>Jean</prenom>
+	</auteur>
+
+	<auteur index="5">
+		<prenom>Marcel</prenom>
+		<nom>Proust</nom>
+		<siecle/>
+	</auteur>
+
+</liste-auteurs>

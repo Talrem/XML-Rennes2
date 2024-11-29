@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<concessionnaire>
+	<voiture>
+		<marque>Renault</marque>
+		<modèle version="authentique" portes="3">Megane</modèle>
+		<options air_conditionné="oui" conduite="manuelle" abs="non"/>
+		<carburant>
+			<essence>
+				<consommation>
+					<ville>8,7</ville>
+					<extra-urbain>5,3</extra-urbain>
+				</consommation>
+			</essence>
+			<diesel>
+				<consommation>
+					<ville>5,5</ville>
+					<extra-urbain>4,0</extra-urbain>
+				</consommation>
+			</diesel>
+		</carburant>
+	</voiture>
+	<voiture>
+		<marque>Renault</marque>
+		<modèle version="expression" portes="5">Megane</modèle>
+		<options air_conditionné="oui" conduite="automatique" abs="oui"/>
+		<carburant>
+			<essence>
+				<consommation>
+					<ville>9,7</ville>
+					<extra-urbain>6,3</extra-urbain>
+				</consommation>
+			</essence>
+			<diesel>
+				<consommation>
+					<ville>6,5</ville>
+					<extra-urbain>5,0</extra-urbain>
+				</consommation>
+			</diesel>
+		</carburant>
+	</voiture>
+</concessionnaire>

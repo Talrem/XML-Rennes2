@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE liste-auteurs [
+		<!ELEMENT liste-auteurs  (auteur*)>
+		<!ELEMENT auteur         (nom,prenom,titres,siecle?)>
+		<!ATTLIST auteur         index CDATA #REQUIRED>
+		<!ELEMENT titres         (titre+)>
+		<!ELEMENT titre          (#PCDATA)>
+		<!ATTLIST titre          nb_pages CDATA #IMPLIED
+					 editeur CDATA #REQUIRED>
+		<!ELEMENT nom            (#PCDATA)>
+		<!ELEMENT prenom         (#PCDATA)>
+		<!ELEMENT siecle         (#PCDATA)>
+]>
+
+<liste-auteurs>
+	<auteur>
+		<nom>Jean</nom>
+		<prenom>Valjean</prenom>
+		<titres>
+				<titre nb_pages="3" editeur="Les Mythos">Moi, beau et gentil
+				</titre>
+		</titres>
+		<siecle>23ème</siecle>
+	</auteur>
+</liste-auteurs>
