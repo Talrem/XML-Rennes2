@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding= "UTF-8" ?>
+<countries>
+	<country>
+		<name>France</name>
+		<historiquePopulations>
+			<population>
+				<date>2007</date>
+				<nombre>64102000</nombre>
+			</population>
+		</historiquePopulations>
+		<capital>Paris</capital>
+	</country>
+	<country>
+		<name>Italia</name>
+		<historiquePopulations>
+			<population>
+				<date>2007</date>
+				<nombre>58133509</nombre>
+			</population>
+		</historiquePopulations>
+		<capital>Roma</capital>
+	</country>
+	<country>
+		<name>España</name>
+		<historiquePopulations>
+			<population>
+				<date>2007</date>
+				<nombre>44708964</nombre>
+			</population>
+		</historiquePopulations>
+		<capital>Madrid</capital>
+	</country>
+</countries>

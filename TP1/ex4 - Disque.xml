@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding= "UTF-8" ?>
+<!-- Ceci est un exemple de document XML: cd.xml -->
+<?xml-stylesheet href="disque.css"?>
+<discothèque>
+	<disque>
+		<artiste class="encadre">Eddy De Pretto</artiste>
+		<titre></titre>
+		<date>Date de sortie : 17/11/2023</date>
+		<genre>Genre : Variété française</genre>
+		<label>Label : Otterped Editions </label>
+		<editeur>Edité par : Virgin Records </editeur>
+		<format>Vinyle 33T Édition limitée</format>
+		<prix>37,99 €</prix>
+		<description class="italic"> Avis du vendeur
+		<vendeur class="aligner"> Eddy de Pretto signe son grand retour ! Deux
+		ans après son dernier album "À TOUS LES BÂTARDS", certifié disque
+		d’or, le chanteur revient avec “CRASH CŒUR", nouvel album à paraître
+		le 17 novembre.
+		Auteur, compositeur et interprète, l’artiste a toujours eu une vision
+		claire de ses envies, du studio à la scène en passant par l’image.
+		Avec ce nouvel opus, il explore le moindre de ses désirs, des
+		sonorités R’n’B à des textes à la fois crus et écorchés. En résultent
+		12 titres ambitieux et percutants, dont l’héritage musical...
+		</vendeur>
+		</description>
+	</disque>
+	<disque>
+		<artiste class="encadre">Tamusic</artiste>
+		<titre>ピアノのための東方超絶技巧曲集７</titre>
+		<date>Date de sortie : 05/06/2018</date>
+		<genre>Genre : Piano, Musique de jeu-vidéo</genre>
+		<label>Label : AKIBA-HOBBY</label>
+		<editeur>Edité par : COMIC ZIN</editeur>
+		<format>CDROM</format>
+		<prix>20 €</prix>
+		<description class="italic"> Avis du vendeur
+		<vendeur class="aligner">
+			同人音楽サークル「TAMUSIC（たむしっく）」
+			ピアノ演奏、サークル代表のTAMです
+
+			前年は海外ライブ10回という多分オタク演奏パフォーマー世界最多の旅を続け
+			一旦お休みして正月明けから日本国内のまだ行ってない都市を中心に廻っている時に
+			天から音が降りてきて一気に演奏したCDとなります
+
+			知らない土地へ行き、あてもなく彷徨い続けながら新たな音を探す
+			そんな人生スタイルがここ数年定着したTAMですが
+			今回も様々な新規技法やアレンジ方向性、物語性を詰め込んだつもりです
+
+			「迷い込んだアリスは、無事に幻想郷へと辿りつけるのか？」
+			そんなイメージでまとめた超絶技巧曲集７
+			どうぞじっくり、深い森の中をイメージしながら、お聴きください
+
+			TAM
+		</vendeur>
+		</description>
+	</disque>
+</discothèque>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding= "UTF-8" ?>
+<bouteilles>
+	<bouteille>
+		<codeBarre>3274080005003</codeBarre>
+		<marque>Cristalline</marque>
+		<volume unite="cl">150</volume>
+		<source>
+			<département>Loiret</département>
+			<ville>St-Cyr la Source</ville>
+		</source>
+		<ions>
+			<ion polarité="positive">
+				<nom>calcium</nom>
+				<concentration unite="mg/L">71</concentration>
+			</ion>
+			<ion polarité="positive">
+				<nom>magnesium</nom>
+				<concentration unite="mg/L">5.5</concentration>
+			</ion>
+			<ion polarité="negative">
+				<nom>chlorure</nom>
+				<concentration unite="mg/L">20</concentration>
+			</ion>
+			<ion polarité="positive">
+				<nom>nitrate</nom>
+				<concentration unite="mg/L">1</concentration>
+			</ion>
+		</ions>
+		<ph>7.45</ph>
+		<autresMateriaux>
+			<matière>
+				<nom>Fer</nom>
+			</matière>
+		</autresMateriaux>
+	</bouteille>
+	<bouteille>
+		<codeBarre>3268840001008</codeBarre>
+		<marque>Cristalline</marque>
+		<volume>50 cl</volume>
+		<source>
+			<département>Alpes Maritimes</département>
+			<ville>Aurèle</ville>
+		</source>
+		<ions>
+			<ion polarité="positive">
+				<nom>calcium</nom>
+				<concentration unite="mg/L">98</concentration>
+			</ion>
+			<ion polarité="positive">
+				<nom>magnesium</nom>
+				<concentration unite="mg/L">4</concentration>
+			</ion>
+			<ion polarité="negative">
+				<nom>chlorure</nom>
+				<concentration unite="mg/L">3.6</concentration>
+			</ion>
+			<ion polarité="positive">
+				<nom>nitrate</nom>
+				<concentration unite="mg/L">2</concentration>
+			</ion>
+		</ions>
+		<ph>7.4</ph>
+		<autresMateriaux>
+			<matière>
+				<nom>
+				</nom>
+			</matière>
+		</autresMateriaux>
+	</bouteille>
+	<bouteille>
+		<codeBarre>3057640117008</codeBarre>
+		<marque>Volvic</marque>
+		<volume>50 cl</volume>
+		<source>
+			<département>Puy-de-Dôme</département>
+			<ville>Volvic</ville>
+		</source>
+		<ions>
+			<ion polarité="positive">
+				<nom>calcium</nom>
+				<concentration unite="mg/L">11.5</concentration>
+			</ion>
+			<ion polarité="positive">
+				<nom>magnesium</nom>
+				<concentration unite="mg/L">8</concentration>
+			</ion>
+			<ion polarité="negative">
+				<nom>chlorure</nom>
+				<concentration unite="mg/L">13.5</concentration>
+			</ion>
+			<ion polarité="positive">
+				<nom>nitrate</nom>
+				<concentration unite="mg/L">6.3</concentration>
+			</ion>
+		</ions>
+		<ph>7</ph>
+		<autresMateriaux>
+			<matière>
+				<nom>silice</nom>
+			</matière>
+		</autresMateriaux>
+	</bouteille>
+</bouteilles>

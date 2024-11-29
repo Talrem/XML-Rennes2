@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding= "UTF-8" ?>
+<filmographie>
+	<film>
+		<titre>It’s a free World !</titre>
+		<dateSortie>
+			<jour>2</jour>
+			<mois>janvier</mois>
+			<année>2008</année>
+		</dateSortie>
+		<réalisateurs>
+			<realisateur>
+				<nom>Loach</nom>
+				<prenom>Ken</prenom>
+			</realisateur>
+		</réalisateurs>
+		<cast>
+			<acteur>
+				<nom>Wareing</nom>
+				<prenom>Kierston</prenom>
+			</acteur>
+			<acteur>
+				<nom>Ellis</nom>
+				<prenom>Juliet</prenom>
+			</acteur>
+			<acteur>
+				<nom>Zurek</nom>
+				<prenom>Leslaw</prenom>
+			</acteur>
+		</cast>
+		<genre>Drame</genre>
+		<durée>
+			<heure>1</heure>
+			<minute>33</minute>
+		</durée>
+		<annéeProd>2007</annéeProd>
+		<distributeur>Diaphana Films</distributeur>
+		<synopsis>Angie se fait virer d'une agence de recrutement pour mauvaise conduite en public. Elle fait alors équipe avec sa colocataire, Rose, pour ouvrir une agence dans leur cuisine. Avec tous ces immigrants en quête de travail, les opportunités sont considérables, particulièrement pour deux jeunes femmes en phase avec leur temps.</synopsis>
+	</film>
+	<film>
+		<titre>Puella Magi Madoka Magica the Movie Part III - Rebellion</titre>
+		<dateSortie>
+			<jour>22</jour>
+			<mois>novembre</mois>
+			<année>2013</année>
+		</dateSortie>
+		<réalisateurs>
+			<realisateur>
+				<nom>Shinbo</nom>
+				<prenom>Akiyuki</prenom>
+			</realisateur>
+			<realisateur>
+				<nom>Kawabata</nom>
+				<prenom>Takashi</prenom>
+			</realisateur>
+			<realisateur>
+				<nom>Miyamoto</nom>
+				<prenom>Yukihiro</prenom>
+			</realisateur>
+		</réalisateurs>
+		<cast>
+			<acteur>
+				<nom>Yuki</nom>
+				<prenom>Aoi</prenom>
+			</acteur>
+			<acteur>
+				<nom>Saito</nom>
+				<prenom>Chiwa</prenom>
+			</acteur>
+			<acteur>
+				<nom>Kitamura</nom>
+				<prenom>Eri</prenom>
+			</acteur>
+		</cast>
+		<genre>Drame, Mystère, Animation, Fantastique</genre>
+		<durée>
+			<heure>1</heure>
+			<minute>56</minute>
+		</durée>
+		<annéeProd>2007</annéeProd>
+		<distributeur>Aniplex of America</distributeur>
+		<synopsis>Homura Akemi est la seule personne à se souvenir encore de Madoka après le sacrifice de cette dernière. Elle a échoué dans la mission qu'elle s'était imposée mais n'a pas abandonné l'espoir de revoir son amie. Pour survivre, elle continue donc le combat.</synopsis>
+	</film>
+</filmographie>
